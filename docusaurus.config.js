@@ -20,7 +20,7 @@ const config = {
   },
 
   // Set the production url of your site here
-  url: 'https://architectural-security-weakness.github.io',
+  url: 'https://architectural-security-weaknesses.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/site/',
@@ -93,8 +93,13 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Intro',
           },
+	{
+      to: '/docs/weaknesses/',
+      label: 'Weaknesses',
+      position: 'left',
+    },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
             href: 'https://github.com/facebook/docusaurus',
